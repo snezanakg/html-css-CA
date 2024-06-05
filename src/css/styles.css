@@ -1,10 +1,13 @@
 /* Use import to split up your CSS into manageable chunks */
-@import url("./_reset.css");
+@import url("src/css/_reset.css");
 /* Files that are only needed to be imported are called partials */
 /* These are marked with an underscore: */
-@import url("./_variables.css");
+@import url("src/css/_variables.css");
 /* Feel free to add as many of these imports as you need */
-
+body {
+  margin: 0;
+  line-height: normal;
+  }
 .rainydays-logo-2-icon {
   position: absolute;
   top: 862px;
@@ -182,7 +185,7 @@
   height: 1024px;
   overflow: hidden;
   flex-shrink: 0;
-  background-image: url('HOME PAGE.png');
+  background-image: url('assets/images/mountine men.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
