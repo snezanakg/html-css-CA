@@ -1,0 +1,335 @@
+.search-icon {
+    position: absolute;
+    top: 52px;
+    left: calc(50% + 557px);
+    width: 45px;
+    height: 45px;
+}
+.menu-bar-icon {
+    position: absolute;
+    top: 52px;
+    left: calc(50% - 703px);
+    width: 45px;
+    height: 45px;
+}
+.instance-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: -10.43%;
+    right: 0%;
+    bottom: 10.43%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+.sek-2400 {
+    position: absolute;
+    top: 89.57%;
+    left: 30.04%;
+    letter-spacing: -0.3px;
+}
+.group-parent {
+    position: absolute;
+    top: 331px;
+    left: 510px;
+    width: 420px;
+    height: 445px;
+    font-size: 32px;
+}
+.hp-paramount-softshell {
+    position: absolute;
+    top: 767px;
+    left: 604px;
+    font-size: 36px;
+    letter-spacing: -0.3px;
+    white-space: pre-wrap;
+    display: inline-block;
+    width: 216px;
+    height: 24px;
+}
+.checkout-child {
+    position: absolute;
+    top: 1039px;
+    left: 516px;
+    background-color: rgba(50, 241, 207, 0.26);
+    width: 408px;
+    height: 74px;
+}
+.checkout-item {
+    position: absolute;
+    top: 1125px;
+    left: 516px;
+    background-color: rgba(50, 241, 207, 0.26);
+    width: 408px;
+    height: 74px;
+}
+.checkout-inner {
+    position: absolute;
+    top: 614px;
+    left: 538px;
+    width: 94px;
+    height: 34px;
+}
+.component-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 36px;
+    background-color: #fff;
+    border: 1px solid #c4c4c4;
+    box-sizing: border-box;
+}
+.rectangle-div {
+    position: absolute;
+    top: 1059px;
+    left: 673px;
+    width: 94px;
+    height: 34px;
+}
+.div1 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    font-weight: 500;
+}
+.div {
+    position: absolute;
+    top: 1064px;
+    left: 692px;
+    width: 9px;
+    height: 24px;
+    text-align: left;
+    font-family: 'SF Pro Display';
+}
+.div2 {
+    position: absolute;
+    top: 1064px;
+    left: 715px;
+    width: 10px;
+    height: 24px;
+    text-align: left;
+    font-family: 'SF Pro Display';
+}
+.div4 {
+    position: absolute;
+    top: 1064px;
+    left: 739px;
+    width: 13px;
+    height: 24px;
+    text-align: left;
+    font-family: 'SF Pro Display';
+}
+.instance-item {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    background-color: rgba(50, 241, 207, 0.26);
+}
+.instance-wrapper {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+.evaarrow-ios-back-fill-icon {
+    position: absolute;
+    height: 51.06%;
+    width: 12.83%;
+    top: 23.4%;
+    right: 87.17%;
+    bottom: 25.53%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.instance-group {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 407px;
+    height: 47px;
+}
+.evaarrow-ios-back-fill-icon1 {
+    position: absolute;
+    top: 11px;
+    left: 0px;
+    width: 52.2px;
+    height: 24px;
+    overflow: hidden;
+}
+.men-s-collection1 {
+    position: absolute;
+    top: 0%;
+    left: 12.94%;
+    letter-spacing: -0.3px;
+    white-space: pre-wrap;
+}
+.men-s-collection {
+    position: absolute;
+    top: 13px;
+    left: 50.06px;
+    width: 309.1px;
+    height: 17px;
+}
+.instance-parent {
+    position: absolute;
+    top: 169px;
+    left: 0px;
+    width: 407px;
+    height: 47px;
+    font-size: 24px;
+}
+.regular-icons {
+    position: absolute;
+    top: 1252px;
+    left: 843px;
+    width: 16px;
+    height: 16px;
+}
+.component-item {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 55px;
+    background-color: #ff5500;
+}
+.w {
+    letter-spacing: 0.1em;
+}
+.buy-now {
+    position: absolute;
+    top: 38.95%;
+    left: 29.41%;
+}
+.rectangle-parent {
+    position: absolute;
+    top: 1268px;
+    left: 516px;
+    width: 408px;
+    height: 95px;
+    font-size: 32px;
+    color: #fff;
+}
+.men-btn {
+    position: absolute;
+    top: 59px;
+    left: 319px;
+    background-color: rgba(217, 217, 217, 0);
+    width: 94px;
+    height: 36px;
+    cursor: pointer;
+}
+.women-btn {
+    position: absolute;
+    top: 52px;
+    left: 432px;
+    background-color: rgba(217, 217, 217, 0);
+    width: 124px;
+    height: 46px;
+}
+.about-btn {
+    position: absolute;
+    top: 59px;
+    left: 585px;
+    background-color: rgba(217, 217, 217, 0);
+    width: 148px;
+    height: 48px;
+}
+.contact-btn {
+    position: absolute;
+    top: 67px;
+    left: 772px;
+    background-color: rgba(217, 217, 217, 0);
+    width: 129px;
+    height: 27px;
+}
+.icn-shopping-cart-icn-xs {
+    position: absolute;
+    top: 52px;
+    left: calc(50% + 628px);
+    width: 48.2px;
+    height: 45px;
+    overflow: hidden;
+}
+.group-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(50, 241, 207, 0.26);
+    width: 1190px;
+    height: 92px;
+}
+.men-women-about {
+    position: absolute;
+    top: 33px;
+    left: 159px;
+    letter-spacing: -0.3px;
+    white-space: pre-wrap;
+    display: inline-block;
+    width: 756px;
+}
+.rectangle-group {
+    position: absolute;
+    top: 24px;
+    left: 78px;
+    width: 1190px;
+    height: 92px;
+    font-size: 36px;
+}
+.rainydays-logo-3-icon {
+    position: absolute;
+    top: 1422px;
+    left: 8px;
+    width: 229px;
+    height: 91px;
+    object-fit: cover;
+}
+.checkout-inner1 {
+    position: absolute;
+    top: 1145px;
+    left: 673px;
+    width: 94px;
+    height: 34px;
+}
+.s {
+    position: absolute;
+    top: 1151px;
+    left: 715px;
+    text-align: left;
+}
+.checkout {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 1513px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 20px;
+    color: #000;
+    font-family: Alice;
+}
+
+body {
+    margin: 0;
+    line-height: normal;
+    }
+    
