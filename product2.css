@@ -1,0 +1,205 @@
+.menu-bar-icon {
+    position: absolute;
+    top: 47px;
+    left: calc(50% - 687px);
+    width: 45px;
+    height: 45px;
+}
+.icn-search-icn-xs {
+    position: absolute;
+    top: 50px;
+    left: calc(50% + 574px);
+    width: 45px;
+    height: 45px;
+    overflow: hidden;
+}
+.icn-shopping-cart-icn-xs {
+    position: absolute;
+    top: 50px;
+    left: calc(50% + 639px);
+    width: 48.2px;
+    height: 45px;
+    overflow: hidden;
+}
+.sek-2159 {
+    position: absolute;
+    top: 1016px;
+    left: 1140px;
+    letter-spacing: -0.3px;
+}
+.rainydays-jacket2-1-icon {
+    position: absolute;
+    top: 591px;
+    left: 1035px;
+    width: 324px;
+    height: 395px;
+    object-fit: cover;
+}
+.sek-3799 {
+    position: absolute;
+    top: 1018px;
+    left: 167px;
+    letter-spacing: -0.3px;
+}
+.jacket-women-1 {
+    position: absolute;
+    top: 576px;
+    left: 33px;
+    width: 377px;
+    height: 410px;
+    object-fit: cover;
+}
+.sek-1999 {
+    position: absolute;
+    top: 1016px;
+    left: 688px;
+    letter-spacing: -0.3px;
+}
+.jakna-2-1 {
+    position: absolute;
+    top: calc(50% - 178.5px);
+    left: 570px;
+    width: 325px;
+    height: 395px;
+    object-fit: cover;
+}
+.women-collection {
+    position: absolute;
+    top: 260px;
+    left: 88px;
+    font-size: 24px;
+    letter-spacing: -0.3px;
+}
+.instance-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    background-color: rgba(50, 241, 207, 0.26);
+}
+.instance-wrapper {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+.evaarrow-ios-back-fill-icon {
+    position: absolute;
+    height: 51.06%;
+    width: 12.83%;
+    top: 23.41%;
+    right: 87.17%;
+    bottom: 25.53%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.instance-parent {
+    position: absolute;
+    height: 4.59%;
+    width: 28.26%;
+    top: 15.35%;
+    right: 71.74%;
+    bottom: 80.06%;
+    left: 0%;
+}
+.group-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(50, 241, 207, 0.26);
+    width: 1190px;
+    height: 92px;
+}
+.men-women-about {
+    position: absolute;
+    top: 33px;
+    left: 159px;
+    letter-spacing: -0.3px;
+    white-space: pre-wrap;
+    display: inline-block;
+    width: 756px;
+}
+.rectangle-parent {
+    position: absolute;
+    top: 22px;
+    left: 83px;
+    width: 1190px;
+    height: 92px;
+    font-size: 36px;
+}
+.rainydays-logo-2-icon {
+    position: absolute;
+    top: 1448px;
+    left: 0px;
+    width: 269px;
+    height: 91px;
+    object-fit: cover;
+}
+.men-btn {
+    position: absolute;
+    top: 53px;
+    left: 328px;
+    background-color: rgba(217, 217, 217, 0);
+    width: 98px;
+    height: 42px;
+}
+.about-btn {
+    position: absolute;
+    top: 55px;
+    left: 590px;
+    background-color: rgba(217, 217, 217, 0);
+    width: 156px;
+    height: 41px;
+}
+.contact-btn {
+    position: absolute;
+    top: 53px;
+    left: 774px;
+    background-color: rgba(217, 217, 217, 0);
+    width: 133px;
+    height: 53px;
+}
+.cyclone-shell-jacket {
+    position: absolute;
+    top: 433px;
+    left: 195px;
+    font-size: 20px;
+    letter-spacing: -0.3px;
+}
+.cyclone-shell-jacket1 {
+    position: absolute;
+    top: 1055px;
+    left: 82px;
+    letter-spacing: -0.3px;
+}
+.wisttler-rosea {
+    position: absolute;
+    top: 1047px;
+    left: 636px;
+    letter-spacing: -0.3px;
+}
+.silence-proshell {
+    position: absolute;
+    top: 1045px;
+    left: 1086px;
+    letter-spacing: -0.3px;
+}
+.product-listing {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 1539px;
+    text-align: center;
+    font-size: 32px;
+    color: #000;
+    font-family: Alice;
+}
+
