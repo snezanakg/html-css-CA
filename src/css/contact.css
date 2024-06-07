@@ -4,6 +4,78 @@
     line-height: normal;
 }
 
+.search-icon {
+    position: absolute;
+    top: 44px;
+    left: calc(50% + 557px);
+    width: 45px;
+    height: 45px;
+}
+.shopping-cart-icon {
+    position: absolute;
+    top: 44px;
+    left: calc(50% + 622px);
+    width: 45px;
+    height: 45px;
+}
+.menu-bar-icon {
+    position: absolute;
+    top: 44px;
+    left: 21px;
+    width: 45px;
+    height: 45px;
+}
+.instance-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    background-color: rgba(50, 241, 207, 0.26);
+}
+.evaarrow-ios-back-fill-icon {
+    position: absolute;
+    height: 51.06%;
+    width: 12.83%;
+    top: 23.4%;
+    right: 87.17%;
+    bottom: 25.53%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.instance-wrapper {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+.contact-us1 {
+    position: absolute;
+    top: 23.4%;
+    left: 28.26%;
+    letter-spacing: -0.3px;
+}
+.instance-parent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 407px;
+    height: 47px;
+}
+.contact-us-inner {
+    position: absolute;
+    top: 191px;
+    left: 0px;
+    width: 407px;
+    height: 47px;
+}
 .icnsearch-icon {
     width: 20px;
     position: relative;
@@ -14,8 +86,7 @@
     position: relative;
 }
 .search {
-    width: 100%;
-    position: relative;
+    width: 296px;
     border-radius: 10px;
     background-color: #fff;
     height: 36px;
@@ -26,11 +97,262 @@
     padding: 0px 6px;
     box-sizing: border-box;
     gap: 4px;
-    text-align: center;
+    z-index: 0;
+}
+.avatar {
+    width: 36px;
+    border-radius: 18px;
+    background-color: #fff;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+    z-index: 1;
+    font-size: 14px;
+}
+.sss {
+    width: 36px;
+    position: absolute;
+    margin: 0 !important;
+    top: 7px;
+    left: calc(50% - 19px);
+    border-radius: 4px;
+    background-color: #000;
+    height: 5px;
+    z-index: 2;
+}
+.topnavigation {
+    position: absolute;
+    top: calc(50% - 351.5px);
+    left: calc(50% - 9px);
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgba(50, 241, 207, 0.26);
+    width: 636px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+    box-sizing: border-box;
+    gap: 10px;
     font-size: 17px;
-    color: #000;
     font-family: 'SF Pro Display';
 }
+.world-icon {
+    position: absolute;
+    height: 52.8%;
+    width: 60%;
+    top: 40.03%;
+    right: 0.83%;
+    bottom: 7.16%;
+    left: 39.17%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.men-btn {
+    position: absolute;
+    top: 61px;
+    left: 323px;
+    background-color: rgba(217, 217, 217, 0);
+    width: 77px;
+    height: 71px;
+}
+.women-btn {
+    position: absolute;
+    top: 66px;
+    left: 424px;
+    background-color: rgba(217, 217, 217, 0);
+    width: 140px;
+    height: 52px;
+}
+.about-btn {
+    position: absolute;
+    top: 65px;
+    left: 580px;
+    background-color: rgba(217, 217, 217, 0);
+    width: 170px;
+    height: 45px;
+}
+.contact-btn {
+    position: absolute;
+    top: 79px;
+    left: 770px;
+    background-color: rgba(217, 217, 217, 0);
+    width: 132px;
+    height: 39px;
+}
+.group-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(50, 241, 207, 0.26);
+    width: 1190px;
+    height: 92px;
+}
+.men-women-about {
+    position: absolute;
+    top: 33px;
+    left: 159px;
+    letter-spacing: -0.3px;
+    white-space: pre-wrap;
+    display: inline-block;
+    width: 756px;
+}
+.rectangle-parent {
+    position: absolute;
+    top: 44px;
+    left: 76px;
+    width: 1190px;
+    height: 92px;
+    font-size: 36px;
+}
+.rainydays-logo-3-icon {
+    position: absolute;
+    top: 1304px;
+    left: 6px;
+    width: 229px;
+    height: 91px;
+    object-fit: cover;
+}
+.label {
+    align-self: stretch;
+    position: relative;
+    line-height: 150%;
+}
+.input {
+    align-self: stretch;
+    border-radius: 4px;
+    border: 1px solid #89949f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+}
+.inputgroup {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: #808080;
+}
+.textfield {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 8px;
+}
+.textfield-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.placeholder3 {
+    flex: 1;
+    position: relative;
+    line-height: 150%;
+}
+.input3 {
+    align-self: stretch;
+    border-radius: 4px;
+    border: 1px solid #aeb3b7;
+    box-sizing: border-box;
+    height: 108px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 8px 16px;
+}
+.textareafield {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 8px;
+}
+.outline {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 4px;
+    border: 2px solid #89949f;
+    box-sizing: border-box;
+    width: 16px;
+    height: 16px;
+}
+.checkbox {
+    width: 16px;
+    position: relative;
+    height: 16px;
+}
+.label4 {
+    position: relative;
+    line-height: 150%;
+}
+.checkboxfield {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.button {
+    align-self: stretch;
+    border-radius: 4px;
+    background-color: #ff5500;
+    border: 1px solid rgba(0, 0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+    font-size: 20px;
+    color: #fff;
+}
+.contactus {
+    position: absolute;
+    top: 391px;
+    left: 6px;
+    border-radius: 8px;
+    background-color: #fafafa;
+    width: 559px;
+    height: 553px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 32px;
+    box-sizing: border-box;
+    gap: 24px;
+    text-align: left;
+    font-size: 16px;
+    color: #304050;
+    font-family: Inter;
+}
+.contact-us {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 1405px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 24px;
+    color: #000;
+    font-family: Alice;
+}
+
 
 
 
