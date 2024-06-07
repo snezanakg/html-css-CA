@@ -1,0 +1,36 @@
+
+.body {
+    margin: 0;
+    line-height: normal;
+}
+
+.icnsearch-icon {
+    width: 20px;
+    position: relative;
+    height: 20px;
+    object-fit: cover;
+}
+.search-maps {
+    position: relative;
+}
+.search {
+    width: 100%;
+    position: relative;
+    border-radius: 10px;
+    background-color: #fff;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 6px;
+    box-sizing: border-box;
+    gap: 4px;
+    text-align: center;
+    font-size: 17px;
+    color: #000;
+    font-family: 'SF Pro Display';
+}
+
+
+

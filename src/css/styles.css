@@ -4,7 +4,7 @@
 /* These are marked with an underscore: */
 @import url("src/css/_variables.css");
 /* Feel free to add as many of these imports as you need */
-body {
+.body {
   margin: 0;
   line-height: normal;
   }
