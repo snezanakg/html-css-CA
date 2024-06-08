@@ -1,0 +1,191 @@
+.body {
+    margin: 0;
+    line-height: normal;
+    }
+  .rainydays-logo-2-icon {
+    position: absolute;
+    top: 862px;
+    left: 0px;
+    width: 229px;
+    height: 91px;
+    object-fit: cover;
+    }
+    .shopping-cart-icon {
+    position: absolute;
+    top: 25px;
+    left: calc(50% + 604.5px);
+    width: 45px;
+    height: 45px;
+    }
+    .search-icon {
+    position: absolute;
+    top: 25px;
+    left: calc(50% + 537.5px);
+    width: 45px;
+    height: 45px;
+    }
+    .menu-bar-icon {
+    position: absolute;
+    top: 25px;
+    left: calc(50% - 699.5px);
+    width: 45px;
+    height: 40px;
+    }
+    .group-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 415px;
+    height: 59px;
+    }
+    .shop-mens {
+    position: absolute;
+    top: 18.83px;
+    left: 39.95px;
+    letter-spacing: -0.3px;
+    white-space: pre-wrap;
+    display: inline-block;
+    width: 350.6px;
+    height: 21.3px;
+    }
+    .vector-parent {
+    position: absolute;
+    top: 596px;
+    left: 540px;
+    width: 415px;
+    height: 59px;
+    }
+    .home-page-child {
+    position: absolute;
+    top: 695px;
+    left: 540px;
+    width: 415px;
+    height: 56px;
+    }
+    .shop-womens {
+    position: absolute;
+    top: calc(50% + 198px);
+    left: calc(50% - 70.5px);
+    letter-spacing: -0.3px;
+    display: inline-block;
+    width: 190px;
+    height: 17px;
+    }
+    .our-jackets-offers {
+    position: absolute;
+    top: 461px;
+    left: 540px;
+    letter-spacing: -0.3px;
+    white-space: pre-wrap;
+    display: inline-block;
+    width: 372px;
+    height: 95px;
+    }
+    .group-item {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(50, 241, 207, 0.26);
+    width: 1190px;
+    height: 92px;
+    }
+    .home-page-inner {
+    position: absolute;
+    top: 861px;
+    left: 250px;
+    width: 1190px;
+    height: 92px;
+    }
+    .men-women-about {
+    position: absolute;
+    top: 890px;
+    left: 411px;
+    letter-spacing: -0.3px;
+    white-space: pre-wrap;
+    display: inline-block;
+    width: 756px;
+    }
+    .men-btn-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(217, 217, 217, 0);
+    width: 62px;
+    height: 31px;
+    }
+    .men-btn {
+    position: absolute;
+    top: 890px;
+    left: 605px;
+    width: 62px;
+    height: 31px;
+    }
+    .women-btn-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(217, 217, 217, 0);
+    width: 84px;
+    height: 31px;
+    }
+    .women-btn {
+    position: absolute;
+    top: 890px;
+    left: 663px;
+    width: 84px;
+    height: 31px;
+    }
+    .about-us-btn-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(217, 217, 217, 0);
+    width: 102px;
+    height: 32px;
+    }
+    .about-us-btn {
+    position: absolute;
+    top: 885px;
+    left: 765px;
+    width: 102px;
+    height: 32px;
+    }
+    .contactb-us-btn-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(217, 217, 217, 0);
+    width: 110px;
+    height: 31px;
+    }
+    .contactb-us-btn {
+    position: absolute;
+    top: 890px;
+    left: 879px;
+    width: 110px;
+    height: 31px;
+    }
+    .rainydays-logo-1-icon {
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 734.5px);
+    width: 1449px;
+    height: 415px;
+    object-fit: cover;
+    }
+    .home-page {
+    width: 100%;
+    position: relative;
+    height: 1024px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background-image: url('assets/images/mountine men.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    font-family: Alice;
+    }
+    
