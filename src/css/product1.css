@@ -1,305 +1,43 @@
-body {
-    margin: 0;
-    line-height: normal;
-    }
-.shopping-cart-icon {
-    position: absolute;
-    top: 47px;
-    left: 1364px;
-    width: 45px;
-    height: 45px;
-}
-.search-icon {
-    position: absolute;
-    top: 49px;
-    left: 1303px;
-    width: 45px;
-    height: 45px;
-}
-.menu-bar-icon {
-    position: absolute;
-    top: 47px;
-    left: 27px;
-    width: 45px;
-    height: 45px;
-    cursor: pointer;
-}
-.instance-child {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0%;
-    right: 0%;
-    bottom: 0%;
-    left: 0%;
-    background-color: rgba(50, 241, 207, 0.26);
-}
-.instance-wrapper {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0%;
-    right: 0%;
-    bottom: 0%;
-    left: 0%;
-}
-.evaarrow-ios-back-fill-icon {
-    position: absolute;
-    height: 51.06%;
-    width: 12.82%;
-    top: 23.4%;
-    right: 87.18%;
-    bottom: 25.53%;
-    left: 0%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-}
-.instance-group {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 407.8px;
-    height: 47px;
-}
-.men-s-collection1 {
-    position: absolute;
-    top: 0%;
-    left: 12.92%;
-    letter-spacing: -0.3px;
-    white-space: pre-wrap;
-}
-.men-s-collection {
-    position: absolute;
-    top: 14px;
-    left: 52.33px;
-    width: 309.6px;
-    height: 17px;
-}
-.instance-parent {
-    position: absolute;
-    top: 225px;
-    left: 64px;
-    width: 407.8px;
-    height: 47px;
-}
-.instance-item {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: -10.43%;
-    right: 0%;
-    bottom: 10.43%;
-    left: 0%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-    object-fit: cover;
-}
-.sek-2400 {
-    position: absolute;
-    top: 89.57%;
-    left: 27.94%;
-    letter-spacing: -0.3px;
-}
-.group-parent {
-    position: absolute;
-    top: 395px;
-    left: 187px;
-    width: 278px;
-    height: 334px;
-}
-.rainydays-jacket5-1-icon {
-    position: absolute;
-    top: 894px;
-    left: 1013px;
-    width: 239px;
-    height: 272px;
-    object-fit: cover;
-}
-.sek-1999 {
-    position: absolute;
-    top: 1203px;
-    left: 1089px;
-    letter-spacing: -0.3px;
-}
-.rainydays-jacket4-2-child {
-    position: absolute;
-    height: 101.82%;
-    width: 100%;
-    top: -6.04%;
-    right: 0%;
-    bottom: 4.22%;
-    left: 0%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-    object-fit: cover;
-}
-.rainydays-jacket4-2 {
-    position: absolute;
-    top: 888px;
-    left: 194px;
-    width: 248px;
-    height: 285px;
-}
-.sek-3199 {
-    position: absolute;
-    top: 1208px;
-    left: 264px;
-    letter-spacing: -0.3px;
-}
-.rainydays-jacket6-1-icon {
-    position: absolute;
-    top: 354px;
-    left: 1007px;
-    width: 258px;
-    height: 314px;
-    object-fit: cover;
-}
-.sek-3500 {
-    position: absolute;
-    top: 690px;
-    left: 1092px;
-    letter-spacing: -0.3px;
-}
-.product-listing-child {
-    position: absolute;
-    top: 343px;
-    left: 598px;
-    width: 276px;
-    height: 336px;
-    object-fit: cover;
-}
-.sek-2999 {
-    position: absolute;
-    top: 690px;
-    left: 692px;
-    letter-spacing: -0.3px;
-}
-.rainydays-jacket7-1-1 {
-    position: absolute;
-    top: 894px;
-    left: 610px;
-    width: 232px;
-    height: 272px;
-    object-fit: cover;
-}
-.sek-1079 {
-    position: absolute;
-    top: 1203px;
-    left: 692px;
-    letter-spacing: -0.3px;
-}
-.women-btn {
-    position: absolute;
-    top: 37px;
-    left: 426px;
-    background-color: rgba(217, 217, 217, 0);
-    width: 155px;
-    height: 65px;
-}
-.about-btn {
-    position: absolute;
-    top: 57px;
-    left: 581px;
-    background-color: rgba(217, 217, 217, 0);
-    width: 176px;
-    height: 31px;
-}
-.contact-btn {
-    position: absolute;
-    top: 57px;
-    left: 757px;
-    background-color: rgba(217, 217, 217, 0);
-    width: 140px;
-    height: 36px;
-}
-.group-child {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    background-color: rgba(50, 241, 207, 0.26);
-    width: 1190px;
-    height: 92px;
-}
-.men-women-about {
-    position: absolute;
-    top: 33px;
-    left: 159px;
-    letter-spacing: -0.3px;
-    white-space: pre-wrap;
-    display: inline-block;
-    width: 756px;
-}
-.rectangle-parent {
-    position: absolute;
-    top: 19px;
-    left: 81px;
-    width: 1190px;
-    height: 92px;
-    font-size: 36px;
-}
-.rainydays-logo-2-icon {
-    position: absolute;
-    top: 1465px;
-    left: 0px;
-    width: 229px;
-    height: 91px;
-    object-fit: cover;
-}
-.bomber-noos {
-    position: absolute;
-    top: 1235px;
-    left: 1055px;
-    letter-spacing: -0.3px;
-}
-.m-antora {
-    position: absolute;
-    top: 1239px;
-    left: 256px;
-    letter-spacing: -0.3px;
-}
-.borealis-jacket {
-    position: absolute;
-    top: 1239px;
-    left: 660px;
-    letter-spacing: -0.3px;
-}
-.hp-paramount-softshell {
-    position: absolute;
-    top: 721px;
-    left: 210px;
-    letter-spacing: -0.3px;
-    white-space: pre-wrap;
-    display: inline-block;
-    width: 216px;
-    height: 24px;
-}
-.men-aonach-waterproof {
-    position: absolute;
-    top: 716px;
-    left: 663px;
-    letter-spacing: -0.3px;
-    display: inline-block;
-    width: 147px;
-    height: 76px;
-}
-.waxed-dubble-decker {
-    position: absolute;
-    top: 721px;
-    left: 1022px;
-    letter-spacing: -0.3px;
-}
 .product-listing {
-    width: 100%;
-    position: relative;
-    background-color: #fff;
-    height: 1556px;
-    overflow: hidden;
+    padding: 20px;
     text-align: center;
-    font-size: 24px;
-    color: #000;
-    font-family: Alice;
 }
 
+.product-listing h2 {
+    margin-bottom: 20px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.product {
+    text-align: center;
+    width: calc(33.333% - 40px);
+    box-sizing: border-box;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product p {
+    margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+    .product {
+        width: calc(50% - 40px);
+    }
+}
+
+@media (max-width: 480px) {
+    .product {
+        width: 100%;
+    }
+}

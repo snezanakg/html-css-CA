@@ -1,205 +1,329 @@
-.menu-bar-icon {
-    position: absolute;
-    top: 47px;
-    left: calc(50% - 687px);
-    width: 45px;
-    height: 45px;
-}
-.icn-search-icn-xs {
-    position: absolute;
-    top: 50px;
-    left: calc(50% + 574px);
-    width: 45px;
-    height: 45px;
-    overflow: hidden;
-}
-.icn-shopping-cart-icn-xs {
-    position: absolute;
-    top: 50px;
-    left: calc(50% + 639px);
-    width: 48.2px;
-    height: 45px;
-    overflow: hidden;
-}
-.sek-2159 {
-    position: absolute;
-    top: 1016px;
-    left: 1140px;
-    letter-spacing: -0.3px;
-}
-.rainydays-jacket2-1-icon {
-    position: absolute;
-    top: 591px;
-    left: 1035px;
-    width: 324px;
-    height: 395px;
-    object-fit: cover;
-}
-.sek-3799 {
-    position: absolute;
-    top: 1018px;
-    left: 167px;
-    letter-spacing: -0.3px;
-}
-.jacket-women-1 {
-    position: absolute;
-    top: 576px;
-    left: 33px;
-    width: 377px;
-    height: 410px;
-    object-fit: cover;
-}
-.sek-1999 {
-    position: absolute;
-    top: 1016px;
-    left: 688px;
-    letter-spacing: -0.3px;
-}
-.jakna-2-1 {
-    position: absolute;
-    top: calc(50% - 178.5px);
-    left: 570px;
-    width: 325px;
-    height: 395px;
-    object-fit: cover;
-}
-.women-collection {
-    position: absolute;
-    top: 260px;
-    left: 88px;
-    font-size: 24px;
-    letter-spacing: -0.3px;
-}
-.instance-child {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0%;
-    right: 0%;
-    bottom: 0%;
-    left: 0%;
-    background-color: rgba(50, 241, 207, 0.26);
-}
-.instance-wrapper {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0%;
-    right: 0%;
-    bottom: 0%;
-    left: 0%;
-}
-.evaarrow-ios-back-fill-icon {
-    position: absolute;
-    height: 51.06%;
-    width: 12.83%;
-    top: 23.41%;
-    right: 87.17%;
-    bottom: 25.53%;
-    left: 0%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-}
-.instance-parent {
-    position: absolute;
-    height: 4.59%;
-    width: 28.26%;
-    top: 15.35%;
-    right: 71.74%;
-    bottom: 80.06%;
-    left: 0%;
-}
-.group-child {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    background-color: rgba(50, 241, 207, 0.26);
-    width: 1190px;
-    height: 92px;
-}
-.men-women-about {
-    position: absolute;
-    top: 33px;
-    left: 159px;
-    letter-spacing: -0.3px;
-    white-space: pre-wrap;
-    display: inline-block;
-    width: 756px;
-}
-.rectangle-parent {
-    position: absolute;
-    top: 22px;
-    left: 83px;
-    width: 1190px;
-    height: 92px;
-    font-size: 36px;
-}
-.rainydays-logo-2-icon {
-    position: absolute;
-    top: 1448px;
-    left: 0px;
-    width: 269px;
-    height: 91px;
-    object-fit: cover;
-}
-.men-btn {
-    position: absolute;
-    top: 53px;
-    left: 328px;
-    background-color: rgba(217, 217, 217, 0);
-    width: 98px;
-    height: 42px;
-}
-.about-btn {
-    position: absolute;
-    top: 55px;
-    left: 590px;
-    background-color: rgba(217, 217, 217, 0);
-    width: 156px;
-    height: 41px;
-}
-.contact-btn {
-    position: absolute;
-    top: 53px;
-    left: 774px;
-    background-color: rgba(217, 217, 217, 0);
-    width: 133px;
-    height: 53px;
-}
-.cyclone-shell-jacket {
-    position: absolute;
-    top: 433px;
-    left: 195px;
-    font-size: 20px;
-    letter-spacing: -0.3px;
-}
-.cyclone-shell-jacket1 {
-    position: absolute;
-    top: 1055px;
-    left: 82px;
-    letter-spacing: -0.3px;
-}
-.wisttler-rosea {
-    position: absolute;
-    top: 1047px;
-    left: 636px;
-    letter-spacing: -0.3px;
-}
-.silence-proshell {
-    position: absolute;
-    top: 1045px;
-    left: 1086px;
-    letter-spacing: -0.3px;
-}
-.product-listing {
-    width: 100%;
-    position: relative;
-    background-color: #fff;
-    height: 1539px;
-    text-align: center;
-    font-size: 32px;
-    color: #000;
-    font-family: Alice;
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+    box-sizing: border-box;
 }
 
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+header .logo img {
+    height: 40px;
+}
+
+header nav ul.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul.nav-links li {
+    display: inline;
+}
+
+header nav ul.nav-links li a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 1em;
+}
+
+header .cart-search {
+    display: flex;
+    gap: 15px;
+}
+
+header .cart-search a.icon {
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* Hero Section Styles */
+.hero {
+    position: relative;
+    height: 80vh;
+    background: url('images/hero-image.jpg') no-repeat center center/cover;
+}
+
+.hero .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color);
+    text-align: center;
+    padding: 20px;
+}
+
+.hero .overlay h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.hero .overlay .buttons .btn {
+    margin: 10px;
+    padding: 10px 20px;
+    background: var(--primary-color);
+    color: var(--text-color);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.hero .overlay .buttons .btn:hover {
+    background: var(--secondary-color);
+}
+
+@media (max-width: 768px) {
+    header nav ul.nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero .overlay h1 {
+        font-size: 1.5em;
+    }
+
+    .hero .overlay .buttons .btn {
+        margin: 5px;
+        padding: 8px 15px;
+    }
+}
+
+/* Product Listing Styles */
+.product-listing {
+    padding: 20px;
+    text-align: center;
+}
+
+.product-listing h2 {
+    margin-bottom: 20px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.product {
+    text-align: center;
+    width: calc(33.333% - 40px);
+    box-sizing: border-box;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product p {
+    margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+    .product {
+        width: calc(50% - 40px);
+    }
+}
+
+@media (max-width: 480px) {
+    .product {
+        width: 100%;
+    }
+}
+
+/* Product Detail Styles */
+.product-detail {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-detail .product-image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-detail .product-info {
+    margin-left: 20px;
+    max-width: 400px;
+}
+
+.product-detail .product-info h2 {
+    margin-bottom: 10px;
+}
+
+.product-detail .product-info p {
+    margin-bottom: 20px;
+}
+
+.product-detail .product-info label, .product-detail .product-info select, .product-detail .product-info button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.product-detail .btn {
+    padding: 10px 20px;
+    background: var(--primary-color);
+    color: var(--text-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .product-detail {
+        flex-direction: column;
+    }
+
+    .product-detail .product-info {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
+
+/* Checkout Page Styles */
+.checkout {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkout .product-summary {
+    text-align: center;
+    max-width: 300px;
+    margin-right: 20px;
+}
+
+.checkout .product-summary img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.checkout .checkout-details {
+    max-width: 400px;
+}
+
+.checkout .checkout-details h2 {
+    margin-bottom: 20px;
+}
+
+.checkout .checkout-details label, .checkout .checkout-details select, .checkout .checkout-details p, .checkout .checkout-details button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.checkout .btn {
+    padding: 10px 20px;
+    background: var(--primary-color);
+    color: var(--text-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .checkout {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .checkout .product-summary {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+/* About Us Page Styles */
+.about-us {
+    position: relative;
+    height: 80vh;
+    background: url('images/about-us-background.jpg') no-repeat center center/cover;
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-us .content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.about-us .content h2 {
+    margin-bottom: 20px;
+}
+
+.about-us .content p {
+    margin-bottom: 20px;
+}
+
+/* Contact Us Page Styles */
+.contact-us {
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-us h2 {
+    margin-bottom: 20px;
+}
+
+.contact-us form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-us form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-us form input, .contact-us form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-us form input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+.contact-us form button {
+    padding: 10px 20px;
+    background: var(--primary-color);
+    color: var(--text-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

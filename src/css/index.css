@@ -1,3 +1,4 @@
+/* General Styles */
 body, html {
   margin: 0;
   padding: 0;
@@ -5,6 +6,7 @@ body, html {
   box-sizing: border-box;
 }
 
+/* Header Styles */
 header {
   display: flex;
   justify-content: space-between;
@@ -37,20 +39,25 @@ header nav ul.nav-links li a {
   font-size: 1em;
 }
 
+header .cart-search {
+  display: flex;
+  gap: 15px;
+}
+
 header .cart-search a.icon {
   color: #fff;
-  margin-left: 15px;
   text-decoration: none;
   font-size: 1.2em;
 }
 
-.hero {
+/* Mountine man Section Styles */
+.mountine man {
   position: relative;
   height: 80vh;
   background: url('assets/images/mountine men.jpg') no-repeat center center/cover;
 }
 
-.hero .overlay {
+.mountine man.overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -66,12 +73,12 @@ header .cart-search a.icon {
   padding: 20px;
 }
 
-.hero .overlay h1 {
+.mountine man .overlay h1 {
   font-size: 2em;
   margin-bottom: 20px;
 }
 
-.hero .overlay .buttons .btn {
+.mountine man.overlay .buttons .btn {
   margin: 10px;
   padding: 10px 20px;
   background: #007BFF;
@@ -81,7 +88,7 @@ header .cart-search a.icon {
   transition: background 0.3s;
 }
 
-.hero .overlay .buttons .btn:hover {
+.mountine man.overlay .buttons .btn:hover {
   background: #0056b3;
 }
 
@@ -91,11 +98,11 @@ header .cart-search a.icon {
       gap: 10px;
   }
 
-  .hero .overlay h1 {
+  .mountine man .overlay h1 {
       font-size: 1.5em;
   }
 
-  .hero .overlay .buttons .btn {
+  .mountine man.overlay .buttons .btn {
       margin: 5px;
       padding: 8px 15px;
   }
