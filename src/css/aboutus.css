@@ -1,0 +1,26 @@
+
+.about-us {
+    position: relative;
+    height: 80vh;
+    background: url('assets/images/mountine men.jpg') no-repeat center center/cover;
+    color: var(--textassets-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-us .content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.about-us .content h2 {
+    margin-bottom: 20px;
+}
+
+.about-us .content p {
+    margin-bottom: 20px;
+}
