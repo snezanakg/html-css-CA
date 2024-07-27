@@ -10,7 +10,10 @@
     --font-family: 'Alice', serif;
     --font-size-large: 2em;
     --font-size-medium: 1.5em;
-    --font-size-small: 1em
+    --font-size-small: 1em;
+    --spacing-small: 10px;
+    --spacing-medium: 20px;
+    --spacing-large: 40px;
 }
 
 
