@@ -5,7 +5,7 @@
   	<meta name="viewport" content="initial-scale=1, width=device-width">
 	<meta name="description" content="Detailed view of our premium jackets at RainyDays. Learn more about the features and benefits of each product and find your perfect fit.">
   	<title>Rainydays Selected Product Page</title>
-  	<link rel="stylesheet"  href="selectedProduct.css" />
+  	<link rel="stylesheet"  href="src/css/styles.css" />
   	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alice:wght@400&display=swap" />
   	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=SF Pro Display:wght@500&display=swap" />
 	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -28,24 +28,28 @@
 				</div>
 			</nav>
 		</header>
-		<section class="product-detail">
-			<div class="product-image">
-				<img src="assets/images/RainyDays_Jacket3.jpg" alt="HP Paramount Softshell Jacket M">
-			</div>
-			<div class="product-info">
-				<h2>HP Paramount Softshell Jacket M</h2>
-				<p>sek 2400</p>
-				<label for="size">Size:</label>
-				<select id="size">
-					<option value="S">S</option>
-					<option value="M">M</option>
-					<option value="L">L</option>
-					<option value="XL">XL</option>
-				</select>
-				<button class="btn">Buy Now</button>
-			</div>
-		</section>
+		<main>
+			<section class="product-detail">
+				<div class="product-image">
+					<img src="assets/images/RainyDays_Jacket3.jpg" alt="Product Image">
+				</div>
+				<div class="product-info">
+					<h2>HP Paramount Softshell Jacket M</h2>
+					<p>Price: sek 2400</p>
+					<p>Description: This jacket offers excellent protection and comfort.</p>
+					<label for="size">Size:</label>
+					<select id="size" name="size">
+						<option value="small">Small</option>
+						<option value="medium">Medium</option>
+						<option value="large">Large</option>
+					</select>
+					<button class="btn">Add to Cart</button>
+				</div>
+			</section>
+		</main>
+	
+		<footer>
+			<p>&copy; 2024 RainyDays. All rights reserved.</p>
+		</footer>
 	</body>
 	</html>
-  	
-  	

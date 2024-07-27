@@ -24,6 +24,15 @@ body, html {
     box-sizing: border-box;
 }
 
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 /* Header Styles */
 header {
     display: flex;
@@ -38,7 +47,7 @@ header .logo img {
     height: 40px;
 }
 
-header nav ul.nav-links {
+header nav ul {
     list-style: none;
     display: flex;
     gap: 15px;
@@ -46,14 +55,12 @@ header nav ul.nav-links {
     margin: 0;
 }
 
-header nav ul.nav-links li {
+header nav ul li {
     display: inline;
 }
 
-header nav ul.nav-links li a {
-    color: var(--text-color);
-    text-decoration: none;
-    font-size: 1em;
+header nav ul li a {
+    font-size: var(--font-size-small);
 }
 
 header .cart-search {
@@ -61,9 +68,295 @@ header .cart-search {
     gap: 15px;
 }
 
-header .cart-search a.icon {
-    color: var(--text-color);
-    text-decoration: none;
+header .cart-search a {
     font-size: 1.2em;
 }
 
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+/* Mountine man  Section Styles */
+.hero {
+    position: relative;
+    height: 80vh;
+    background: url('assets/images/mountine men.jpg') no-repeat center center/cover;
+}
+
+.mountine man.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color);
+    text-align: center;
+    padding: 20px;
+}
+
+.mountine man .overlay h1 {
+    font-size: var(--font-size-large);
+    margin-bottom: 20px;
+}
+
+.mountine man.overlay .buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.mountine man.overlay .buttons .btn {
+    padding: 10px 20px;
+    background: var(--primary-color);
+    color: var(--text-color);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.mountine man.overlay .buttons .btn:hover {
+    background: var(--secondary-color);
+}
+
+/* Product Listing Styles */
+.product-listing {
+    padding: 20px;
+    text-align: center;
+}
+
+.product-listing h2 {
+    margin-bottom: 20px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.product {
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product p {
+    margin: 10px 0;
+}
+
+/* Product Detail Styles */
+.product-detail {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-detail .product-image {
+    flex: 1 1 300px;
+    max-width: 400px;
+    padding: 10px;
+}
+
+.product-detail .product-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-detail .product-info {
+    flex: 1 1 300px;
+    max-width: 400px;
+    padding: 10px;
+}
+
+.product-detail .product-info h2 {
+    margin-bottom: 10px;
+}
+
+.product-detail .product-info p {
+    margin-bottom: 20px;
+}
+
+.product-detail .product-info label, .product-detail .product-info select, .product-detail .product-info button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.product-detail .btn {
+    padding: 10px 20px;
+    background: var(--primary-color);
+    color: var(--text-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Checkout Page Styles */
+.checkout {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkout .product-summary {
+    flex: 1 1 300px;
+    max-width: 400px;
+    padding: 10px;
+    text-align: center;
+}
+
+.checkout .product-summary img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.checkout .checkout-details {
+    flex: 1 1 300px;
+    max-width: 400px;
+    padding: 10px;
+}
+
+.checkout .checkout-details h2 {
+    margin-bottom: 20px;
+}
+
+.checkout .checkout-details label, .checkout .checkout-details select, .checkout .checkout-details p, .checkout .checkout-details button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.checkout .btn {
+    padding: 10px 20px;
+    background: var(--primary-color);
+    color: var(--text-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* About Us Section Styles */
+.about-us {
+    padding: 20px;
+    text-align: center;
+    background: url('assets/images/mountine men.jpg') no-repeat center center/cover;
+    color: var(--text-color);
+}
+
+.about-us .content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Contact Us Section Styles */
+.contact-us {
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-us h2 {
+    margin-bottom: 20px;
+}
+
+.contact-us form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-us form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-us form input, .contact-us form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-us form input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+.contact-us form button {
+    padding: 10px 20px;
+    background: var(--primary-color);
+    color: var(--text-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer Styles */
+footer {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero .overlay h1 {
+        font-size: var(--font-size-medium);
+    }
+
+    .hero .overlay .buttons .btn {
+        margin: 5px;
+        padding: 8px 15px;
+    }
+
+    .product-detail {
+        flex-direction: column;
+    }
+
+    .checkout {
+        flex-direction: column;
+    }
+
+    .about-us {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero .overlay h1 {
+        font-size: var(--font-size-small);
+    }
+
+    .hero .overlay .buttons .btn {
+        margin: 5px;
+        padding: 8px 12px;
+    }
+
+    header .cart-search {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
