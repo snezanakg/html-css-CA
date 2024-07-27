@@ -1,6 +1,69 @@
 /* Use import to split up your CSS into manageable chunks */
-@import url("src/css/_reset.css");
+@import url("src/css/reset.css");
 /* Files that are only needed to be imported are called partials */
 /* These are marked with an underscore: */
-@import url("src/css/_variables.css");
+@import url("src/css/variables.css");
 /* Feel free to add as many of these imports as you need */
+
+@import url("src/css/aboutus.css");
+@import url("src/css/checkout.css");
+@import url("src/css/contact.css");
+@import url("src/css/index.css");
+@import url("src/css/men's jackets.css");
+@import url("src/css/women's jackets.css");
+@import url("src/css/selectedProduct.css");
+
+
+
+
+/* General Styles For All Pages */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+    box-sizing: border-box;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+header .logo img {
+    height: 40px;
+}
+
+header nav ul.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul.nav-links li {
+    display: inline;
+}
+
+header nav ul.nav-links li a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 1em;
+}
+
+header .cart-search {
+    display: flex;
+    gap: 15px;
+}
+
+header .cart-search a.icon {
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
