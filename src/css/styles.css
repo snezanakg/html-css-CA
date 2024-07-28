@@ -35,23 +35,30 @@ a:hover {
 }
 
 /* Header Styles */
+
+
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: var(--spacing-small) var(--spacing-medium);
     background-color: var(--background-color);
     color: var(--text-color);
 }
 
 header .logo img {
-    height: 40px;
+    height: 60px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--spacing-small) var(--spacing-medium);
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 header nav ul {
     list-style: none;
     display: flex;
-    gap: var(--spacing-small);
+    gap: var(--font-size-medium);
     padding: 0;
     margin: 0;
 }
@@ -335,39 +342,31 @@ footer {
 
 /* Media Queries */
 @media (max-width: 768px) {
+    .nav-container {
+        flex-direction: column;
+    }
+
     header nav ul {
         flex-direction: column;
         gap: var(--spacing-small);
     }
 
-    .hero .overlay h1 {
+    .mountine-man.overlay h1 {
         font-size: var(--font-size-medium);
     }
 
-    .hero .overlay .buttons .btn {
+    .mountine-man.overlay .buttons .btn {
         margin: var(--spacing-small);
         padding: 8px 15px;
-    }
-
-    .product-detail {
-        flex-direction: column;
-    }
-
-    .checkout {
-        flex-direction: column;
-    }
-
-    .about-us {
-        text-align: center;
     }
 }
 
 @media (max-width: 480px) {
-    .hero .overlay h1 {
+    .mountine-man.overlay h1 {
         font-size: var(--font-size-small);
     }
 
-    .hero .overlay .buttons .btn {
+    .mountine-man.overlay .buttons .btn {
         margin: var(--spacing-small);
         padding: 8px 12px;
     }
