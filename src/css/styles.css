@@ -98,21 +98,21 @@ main {
     align-items: center;
     color: var(--text-color);
     text-align: center;
-    padding: 20px;
+    padding: var(--spacing-medium);
 }
 
 .mountine-man .overlay h1 {
     font-size: var(--font-size-large);
-    margin-bottom: 20px;
+    margin-bottom: var(--spacing-medium);
 }
 
 .mountine-man.overlay .buttons {
     display: flex;
-    gap: 10px;
+    gap:var(--spacing-small);
 }
 
 .mountine-man.overlay .buttons .btn {
-    padding: 10px 20px;
+    padding: var(--spacing-small) var(--spacing-medium);
     background: var(--primary-color);
     color: var(--text-color);
     text-decoration: none;
@@ -157,6 +157,20 @@ main {
 .product p {
     margin: var(--spacing-small) 0;
 }
+
+.product button {
+    margin-top: var(--spacing-small);
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: none;
+    border-radius: 5px;
+    padding: var(--spacing-small) var(--spacing-medium);
+    cursor: pointer;
+}
+
+.product button:hover {
+    background-color: var(--secondary-color);
+}    
 
 /* Product Detail Styles */
 .product-detail {
