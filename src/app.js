@@ -152,3 +152,45 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelector('.btn.complete-purchase').addEventListener('click', confirmOrder);
   }
 });
+// Display all items in the cart on the checkout page
+async function displayCartItems() {
+    let cart = JSON.parse(localStorage.getItem('cart')) || [];
+    const cartContainer = document.querySelector('.cart-items');
+    
+    if (cartContainer) {
+      cartContainer.innerHTML = ''; // Clear previous cart content
+  
+      if (cart.length === 0) {
+        cartContainer.innerHTML = '<p>Your cart is empty.</p>';
+        return;
+      }
+  
+      for (let cartItem of cart) {
+        const { productId, size } = cartItem;
+        try {
+          const response = await fetch(`${apiUrl}/${productId}`);
+          if (!response.ok) {
+            throw new Error('Error fetching product details');
+          }
+          const product = await response.json();
+          cartContainer.innerHTML += `
+            <div class="cart-item">
+              <img src="${product.imageUrl}" alt="${product.name}">
+              <h3>${product.name}</h3>
+              <p>Price: ${product.price} SEK</p>
+              <label for="cart-size-${productId}">Size:</label>
+              <select id="cart-size-${productId}" onchange="updateCartSize(${productId}, this.value)">
+                <option value="small" ${size === "small" ? "selected" : ""}>Small</option>
+                <option value="medium" ${size === "medium" ? "selected" : ""}>Medium</option>
+                <option value="large" ${size === "large" ? "selected" : ""}>Large</option>
+              </select>
+              <button onclick="removeFromCart(${productId})">Remove</button>
+            </div>
+          `;
+        } catch (error) {
+          console.error('Error fetching product:', error);
+          alert('Unable to load cart item. Please try again later.');
+        }
+      }
+    }
+  }
