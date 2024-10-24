@@ -194,3 +194,24 @@ async function displayCartItems() {
       }
     }
   }
+
+  // Update the size of a product in the cart
+function updateCartSize(productId, newSize) {
+    let cart = JSON.parse(localStorage.getItem('cart')) || [];
+    cart = cart.map(item => {
+      if (item.productId === productId) {
+        return { ...item, size: newSize }; // Update the size
+      }
+      return item;
+    });
+    localStorage.setItem('cart', JSON.stringify(cart));
+    alert('Size updated successfully!');
+  }
+
+  // Remove product from cart
+function removeFromCart(productId) {
+    let cart = JSON.parse(localStorage.getItem('cart')) || [];
+    cart = cart.filter(item => item.productId !== productId);
+    localStorage.setItem('cart', JSON.stringify(cart));
+    displayCartItems(); // Refresh the cart view
+  }
