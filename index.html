@@ -39,20 +39,21 @@
       </div>
     </section>
 
+    <!-- Filter Section -->
+    <section class="filters">
+      <h2>Filter Products</h2>
+      <select id="categoryFilter">
+        <option value="all">All Categories</option>
+        <option value="men">Men</option>
+        <option value="women">Women</option>
+      </select>
+    </section>
+
+    <!--  PRODUCTS SECTION -->
     <section class="featured-products">
       <h2>Featured Products</h2>
-      <div class="products">
-          <div class="product">
-              <img src="assets/images/RainyDays_Jacket3.jpg" alt="HP Paramount Softshell Jacket M">
-              <p>HP Paramount Softshell Jacket M</p>
-              <p>sek 2400</p>
-          </div>
-          <div class="product">
-              <img src="assets/images/jacket1.png" alt="Men Aonach Waterproof Jacket">
-              <p>Men Aonach Waterproof Jacket</p>
-              <p>sek 2999</p>
-          </div>
-      </div>
+      <div id="productsContainer" class="products"></div> 
+      <div id="loading" class="loading" style="display: none;">Loading products...</div> 
     </section>
 
     <section class="about-us">
@@ -65,9 +66,11 @@
       <p>If you have any questions, feel free to <a href="contact.html">reach out to us</a>.</p>
     </section>
   </main>
+  
   <footer>
     <p>&copy; 2024 RainyDays. All rights reserved.</p>
   </footer>
-  <script src="src/app.js"></script>
+
+  <script src="src/app.js"></script> 
 </body>
 </html>
