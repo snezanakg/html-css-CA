@@ -1,4 +1,12 @@
-const apiBaseUrl = "https://v2.api.noroff.dev/rainy-days";
+import { rainydaysApi } from "src/scripts/constans.js";
+
+async function fetchProducts() {
+  const response = await fetch(rainydaysApi);
+  const products = await response.json();
+  console.log(products);
+}
+
+fetchProducts();
 
 // Fetch all products
 async function fetchAllProducts() {
