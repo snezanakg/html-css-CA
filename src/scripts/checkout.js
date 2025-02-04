@@ -1,40 +1,37 @@
-function getCart() {
-  return JSON.parse(localStorage.getItem("cart")) || [];
-}
+import { getCart, removeFromCart } from "src/scripts/cart.js";
 
 function displayCart() {
-  const cartSummaryContainer = document.getElementById("cartSummary");
+  const cartContainer = document.getElementById("cartItems");
   const cart = getCart();
 
   if (cart.length === 0) {
-    cartSummaryContainer.innerHTML = "<p>Your cart is empty.</p>";
+    cartContainer.innerHTML = "<p>Your cart is empty.</p>";
     return;
   }
 
-  cartSummaryContainer.innerHTML = cart.map(item => `
+  cartContainer.innerHTML = cart
+    .map(
+      (item) => `
     <div class="cart-item">
-      <p>${item.title} x${item.quantity}</p>
-      <p>${item.price * item.quantity} SEK</p>
-      <button class="btn remove-item" data-id="${item.id}">Remove</button>
+      <h3>${item.title}</h3>
+      <p>${item.price} SEK</p>
+      <button class="remove-btn" data-id="${item.id}">Remove</button>
     </div>
-  `).join("");
+  `
+    )
+    .join("");
 
-  const totalPrice = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
-  cartSummaryContainer.innerHTML += `<p>Total: SEK ${totalPrice}</p>`;
-
-  document.querySelectorAll(".remove-item").forEach(button => {
-    button.addEventListener("click", (e) => {
-      const productId = e.target.getAttribute("data-id");
-      removeFromCart(productId);
+  document.querySelectorAll(".remove-btn").forEach((btn) =>
+    btn.addEventListener("click", (e) => {
+      removeFromCart(e.target.dataset.id);
       displayCart();
-    });
-  });
+    })
+  );
 }
 
-function removeFromCart(productId) {
-  const cart = getCart();
-  const updatedCart = cart.filter(item => item.id !== productId);
-  localStorage.setItem("cart", JSON.stringify(updatedCart));
-}
+document.getElementById("completePurchase").addEventListener("click", () => {
+  localStorage.removeItem("cart");
+  window.location.href = "confirmation.html";
+});
 
 document.addEventListener("DOMContentLoaded", displayCart);

@@ -1,59 +1,34 @@
-import { rainydaysApi } from "src/scripts/constans.js";
+import { API_BASE, showLoading } from "src/scripts/constans.js";
 
 async function fetchProducts() {
-  const response = await fetch(rainydaysApi);
-  const products = await response.json();
-  console.log(products);
-}
-
-fetchProducts();
-
-// Fetch all products
-async function fetchAllProducts() {
+  showLoading(true);
   try {
-    const response = await fetch(apiBaseUrl);
+    const response = await fetch(API_BASE);
     if (!response.ok) throw new Error("Failed to fetch products");
-    return await response.json();
+
+    const { data: products } = await response.json(); // Extracts the product array
+    displayProducts(products);
   } catch (error) {
-    console.error("Error fetching all products:", error);
+    alert("Error loading products.");
+  } finally {
+    showLoading(false);
   }
 }
 
-// Fetch a single product by ID
-async function fetchProductById(productId) {
-  try {
-    const response = await fetch(`${apiBaseUrl}/${productId}`);
-    if (!response.ok) throw new Error(`Failed to fetch product with ID: ${productId}`);
-    return await response.json();
-  } catch (error) {
-    console.error("Error fetching product by ID:", error);
-  }
+function displayProducts(products) {
+  const container = document.getElementById("productsContainer");
+  container.innerHTML = products
+    .map(
+      (product) => `
+    <div class="product">
+      <img src="${product.image.url}" alt="${product.title}">
+      <h3>${product.title}</h3>
+      <p>${product.price} SEK</p>
+      <a href="product/index.html?id=${product.id}" class="btn">View Details</a>
+    </div>
+  `
+    )
+    .join("");
 }
 
-// Add to Cart
-function addToCart(product) {
-  const cart = JSON.parse(localStorage.getItem("cart")) || [];
-  const existingItem = cart.find((item) => item.id === product.id);
-
-  if (existingItem) {
-    existingItem.quantity += 1;
-  } else {
-    product.quantity = 1;
-    cart.push(product);
-  }
-
-  localStorage.setItem("cart", JSON.stringify(cart));
-  alert(`${product.name} added to cart!`);
-}
-
-// Get Cart
-function getCart() {
-  return JSON.parse(localStorage.getItem("cart")) || [];
-}
-
-// Remove from Cart
-function removeFromCart(productId) {
-  const cart = JSON.parse(localStorage.getItem("cart")) || [];
-  const updatedCart = cart.filter((item) => item.id !== productId);
-  localStorage.setItem("cart", JSON.stringify(updatedCart));
-}
+document.addEventListener("DOMContentLoaded", fetchProducts);
