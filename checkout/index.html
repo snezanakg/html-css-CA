@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1, width=device-width">
+	<meta name="description" content="Complete your purchase at RainyDays. Review your selected items, provide your shipping information, and choose your preferred payment method.">
+  	<title>Rainydays checkout page</title>
+  	<link rel="stylesheet"  href="src/css/styles.css" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alice:wght@400&display=swap" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=SF Pro Display:wght@500&display=swap" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo"><img src="../assets/images/RainyDays_Logo.png" alt="RainyDays Logo"></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="cartSummary">
+      <h1>Your Cart</h1>
+      <div id="cartItems"></div>
+      <button id="completePurchase" class="btn">Complete Purchase</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 RainyDays. All rights reserved.</p>
+  </footer>
+  <script src="src/scripts/checkout.js" type="module"></script>
+</body>
+</html>

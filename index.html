@@ -10,74 +10,39 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   
 </head>
-<body data-page="Home" >
+<body>
   <header>
     <nav>
-        <div class="logo">
-            <img src="assets/images/RainyDays_Logo.png" alt="RainyDays Logo">
-        </div>
-        <ul class="nav-links">
-            <li><a href="men's-jackets.html"title="men's jackets">Men</a></li>
-            <li><a href="women's-jackets.html"title="women's jackets">Women</a></li>
-            <li><a href="about-us.html"title="about us">About Us</a></li>
-            <li><a href="contact.html"title="contact us">Contact</a></li>
-        </ul>
-        <div class="cart-search">
-            <a href="index.html" class="icon"title="search"><i class="fas fa-search"></i></a>
-            <a href="checkout.html" class="icon"title="shopping-cart"><i class="fas fa-shopping-cart"></i></a>
-        </div>
+      <div class="logo"><img src="assets/images/RainyDays_Logo.png" alt="RainyDays Logo"></div>
+      <ul class="nav-links">
+        <li><a href="product/mens-jacket.html">Men</a></li>
+        <li><a href="product/womens-jacket.html">Women</a></li>
+        <li><a href="about-us.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="checkout/index.html" class="icon"><i class="fas fa-shopping-cart"></i></a>
     </nav>
-</header>
-<main>
-    <section class="mountine-man">
-      <div class="overlay">
-          <h1>OUR JACKETS OFFER YOU MAXIMUM PROTECTION</h1>
-          <div class="buttons">
-              <a href="men's-jackets.html" class="btn">SHOP MEN'S</a>
-              <a href="women's-jackets.html" class="btn">SHOP WOMEN'S</a>
-          </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Our Jackets Offer Maximum Protection</h1>
+      <div class="buttons">
+        <a href="product/mens-jacket.html" class="btn">Shop Men's</a>
+        <a href="product/womens-jacket.html" class="btn">Shop Women's</a>
       </div>
     </section>
 
-    <!-- Filter Section -->
-    <section id="filter-products" class="filter-products">
-      <h2>Filter Products</h2>
-      <select id="categoryFilter">
-        <option value="all">All Categories</option>
-        <option value="men">Men</option>
-        <option value="women">Women</option>
-      </select>
-    </section>
-
-    <!-- PRODUCTS SECTION -->
-    <section id="featured-products" class="featured-products">
-      <h2>Featured Products</h2>
-      
-      <!-- Products Container -->
-      <div id="productsContainer" class="products"></div> 
-      
-      <!-- Loading Indicator -->
-      <div id="loading" class="loading" style="display: none;">Loading products...</div> 
-    </section>
-
-    <!-- About Us Section -->
-    <section class="about-us">
-      <h2>About Us</h2>
-      <p>RainyDays is an outerwear lifestyle brand. Its collections blend a conceptual-meets-functional design approach, a strong urban inspiration, and a signature fabric identity. A coated waterproof fabric palette inspired by RainyDays' first design - a contemporary reinterpretation of classic rubber jackets. RainyDays brings its neo-Scandinavian aesthetic, unisex collections, and consistently surprising curation to consumers across the world.</p>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="contact">
-      <h2>Contact Us</h2>
-      <p>If you have any questions, feel free to <a href="contact.html">reach out to us</a>.</p>
+    <section class="featured-products">
+      <h2>Our Best Jackets</h2>
+      <div id="productsContainer"></div>
+      <div id="loading" style="display: none;">Loading...</div>
     </section>
   </main>
-  
+
   <footer>
     <p>&copy; 2024 RainyDays. All rights reserved.</p>
   </footer>
-
-  <!-- JavaScript -->
   <script src="src/scripts/home.js" type="module"></script>
 </body>
 </html>
