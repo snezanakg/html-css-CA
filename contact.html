@@ -8,54 +8,50 @@
   	<link rel="stylesheet"  href="src/css/styles.css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
-<body data-page="contact-us">
-	<header>
-		<nav>
-			<div class="logo">
-				<img src="assets/images/RainyDays_Logo.png" alt="RainyDays Logo">
-			</div>
-			<ul class="nav-links">
-				<li><a href="product/mens-jacket.html">Men</a></li>
-				<li><a href="product/womens-jacket.html">Women</a></li>
-				<li><a href="about-us.html">About Us</a></li>
-				<li><a href="contact.html" class="active">Contact</a></li>
-			</ul>
-			<div class="cart-search">
-				<a href="index.html" class="icon" title="Search"><i class="fas fa-search"></i></a>
-				<a href="checkout/index.html" class="icon" title="Shopping Cart"><i class="fas fa-shopping-cart"></i></a>
-			</div>
-		</nav>
-	</header>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="assets/images/RainyDays_Logo.png" alt="RainyDays Logo">
+      </div>
+      <ul class="nav-links">
+        <li><a href="mens-jacket.html">Men</a></li>
+        <li><a href="womens-jacket.html">Women</a></li>
+        <li><a href="about-us.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-	<main>
-		<section class="contact-us">
-			<h2>Contact Us</h2>
-			<form id="contactForm">
-				<label for="first-name">First Name</label>
-				<input type="text" id="first-name" name="first-name" required>
-				
-				<label for="last-name">Last Name</label>
-				<input type="text" id="last-name" name="last-name" required>
-				
-				<label for="email">Email Address</label>
-				<input type="email" id="email" name="email" required>
-				
-				<label for="message">Message</label>
-				<textarea id="message" name="message" rows="5" required></textarea>
-				
-				<input type="checkbox" id="privacy" name="privacy" required>
-				<label for="privacy">I agree to the Privacy Policy</label>
-				
-				<button type="submit" class="btn">Send Message</button>
-			</form>
-			<div id="successMessage" class="hidden">Thank you! Your message has been sent successfully.</div>
-		</section>
-	</main>
+  <main>
+    <section class="contact-us">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <label for="first-name">First Name</label>
+        <input type="text" id="first-name" name="first-name" required>
 
-	<footer>
-		<p>&copy; 2024 RainyDays. All rights reserved.</p>
-	</footer>
+        <label for="last-name">Last Name</label>
+        <input type="text" id="last-name" name="last-name" required>
 
-	<script src="src/scripts/contact.js" type="module"></script>
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <input type="checkbox" id="privacy" name="privacy" required>
+        <label for="privacy">I agree to the Privacy Policy</label>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <div id="successMessage" class="hidden">Thank you! Your message has been sent successfully.</div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 RainyDays. All rights reserved.</p>
+  </footer>
+
+  <script src="src/scripts/contact.js" type="module"></script>
 </body>
 </html>
