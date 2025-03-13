@@ -21,3 +21,5 @@ This project is currently being updated for a **resit submission**. The JavaScri
 - GitHub Repository: [Rainy Days Repo](https://github.com/snezanakg/html-css-CA/tree/main)  
 - Live Demo: *Coming Soon*  
 - Project Reflection: [Reflection PDF]()  
+📸 **Teaser Image:**  
+![Rainy Days](https://github.com/snezanakg/PORTFOLIO-1/blob/main/assets/images/placeholder.png)
